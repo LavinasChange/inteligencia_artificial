@@ -28,6 +28,7 @@ Esse tema, também classificado na classe de modelos de Inteligência Artificial
 Um dos papers mais famosos nesse tema foi publicado em 2013 pelo time de pesquisa do Google (Google's DeepMind) - Playing Atari with Deep Reinforcement Learning (https://arxiv.org/abs/1312.5602). No artigo é introduzido o algoritmo "Deep Q Network" onde temos a funçao Q(s,a) que depende de dois parâmetos, o estado e a açao.
 
 Algumas referencias sobre RL .  <br>
+https://github.com/changwookjun/StudyBook  (extensa lista de publicacoes - vale a pena ver) <br>
 https://hub.packtpub.com/develop-stock-price-predictive-model-using-reinforcement-learning-tensorflow/   <br>
 https://keon.io/deep-q-learning/   <br>
 https://towardsdatascience.com/applications-of-reinforcement-learning-in-real-world-1a94955bcd12   <br>
