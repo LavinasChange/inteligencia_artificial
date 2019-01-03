@@ -25,14 +25,14 @@ Esse tema, também classificado na classe de modelos de Inteligência Artificial
 4. Recompensa: nossa funçao objetivo que ira influenciar no algoritmo, dependendo do estado atual e futuro e da acao;
 5. Politicas: conjunto de regras que define as escolhas do agente para suas acoes (agent brain).
 Algumas referencias sobre RL
-https://hub.packtpub.com/develop-stock-price-predictive-model-using-reinforcement-learning-tensorflow/
-https://keon.io/deep-q-learning/
-https://towardsdatascience.com/applications-of-reinforcement-learning-in-real-world-1a94955bcd12 
-https://medium.freecodecamp.org/an-introduction-to-q-learning-reinforcement-learning-14ac0b4493cc
-https://www.analyticsvidhya.com/blog/2017/01/introduction-to-reinforcement-learning-implementation/
-https://medium.com/@gaurav1086/machine-learning-for-algorithmic-trading-f79201c8bac6
-http://www.wildml.com/2018/02/introduction-to-learning-to-trade-with-reinforcement-learning/
-https://github.com/kh-kim/stock_market_reinforcement_learning
-https://quantdare.com/deep-reinforcement-trading/
-https://github.com/edwardhdlu/q-trader
-https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/
+https://hub.packtpub.com/develop-stock-price-predictive-model-using-reinforcement-learning-tensorflow/   <br>
+https://keon.io/deep-q-learning/   <br>
+https://towardsdatascience.com/applications-of-reinforcement-learning-in-real-world-1a94955bcd12   <br>
+https://medium.freecodecamp.org/an-introduction-to-q-learning-reinforcement-learning-14ac0b4493cc   <br>
+https://www.analyticsvidhya.com/blog/2017/01/introduction-to-reinforcement-learning-implementation/   <br>
+https://medium.com/@gaurav1086/machine-learning-for-algorithmic-trading-f79201c8bac6   <br>
+http://www.wildml.com/2018/02/introduction-to-learning-to-trade-with-reinforcement-learning/   <br>
+https://github.com/kh-kim/stock_market_reinforcement_learning   <br>
+https://quantdare.com/deep-reinforcement-trading/   <br>
+https://github.com/edwardhdlu/q-trader   <br>
+https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/   <br>
