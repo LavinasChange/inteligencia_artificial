@@ -16,3 +16,23 @@ Esse método é muito eficiente em problemas de aprendizado supervisionado e pod
 Esse algoritmo é baseado no teorema de Bayes e usado em problemas de aprendizado supervisionado assumindo que existe uma independência condicional entre os pares de valores das características e classes. Esse algoritmo pode ser usado com poucos dados de treino e para diversos problemas reais acaba produzindo resultados satisfatórios. Ele é muito utilizado para classificação de texto em análises do tipo NLP a partir da hipeotese de dados com distribuição multinomial.
 ### Ensemble
 Esse é um método utilizado para otimizar o resultado da aplicação de diferentes algoritmos. A ideia é combinar diversos estimadores em apenas um. Isso pode ser feito de três formas. i) fazendo uma média de todos os estimadores usados, ou seja, selecionamos diferentes amostras. Podemos fazer isso a partir de dois modos, usando o Bagging (BaggingClassifier) ou o Forest of randomized trees, com RandomForestClassifier ou ExtraTreeClassifier; ii) Usa os estimadores de forma sequencial (boosting method) com o objetivo de reduzir o viés do estimador combinado. Podemos fazer isso a partir de dois modos. O primeiro usando o algoritmo AdaBoost ou então via Gradient Tree Boosting que possui a vantagem de ser um algoritmo robusto a presença de outilier e tem boa capacidade de previsão. E, por fim, podemos usar o iii) “voting classifier”. Aqui, aplicamos diferentes algoritmos de classificação e usamos um método de votação da maioria para escolher as classes que serão previstas. Recomenda-se o uso desse algoritmo para selecionar dentre diferentes modelos quando temos várias boas opções.
+
+# Reinforcement Learning
+Esse tema, também classificado na classe de modelos de Inteligência Artificial, explora uma forma diferente de aprendizado onde temos um agente que aprende com as mudanças que ocorrem no ambiente em que se encontra. Esse desenho acaba por gerar uma gama de aplicações interessantes como, carros autônomos, jogos, estratégias de marketing dentre outras. Veja que tanto os modelos de Machine Learning quanto os de Deep Learning são processos de aprendizado mas com foco em encontrar padrões nos dados. Por outro lado, os modelos de RL (Reinforcement Learning) atuam com tentativa e erro para aprender com os dados, e criamos uma recompensa pelo acerto que acaba criando como objetivo a maximização dessa receita. Isso posto, podemos definir quais são as peças que vão fazer parte da construção de um modelo de RL.
+1. Estado: descreve a situaçao no qual o agente se encontra;
+2. Açoes: esta relacionado ao conjunto de possibilidades de decisao que o agente pode fazer;
+3. Ambiente: Descreve as caracteristicas do local onde o agente interage. Cada ambiente possui caracteristicas, recompensa e acoes diferentes;
+4. Recompensa: nossa funçao objetivo que ira influenciar no algoritmo, dependendo do estado atual e futuro e da acao;
+5. Politicas: conjunto de regras que define as escolhas do agente para suas acoes (agent brain).
+Algumas referencias sobre RL
+https://hub.packtpub.com/develop-stock-price-predictive-model-using-reinforcement-learning-tensorflow/
+https://keon.io/deep-q-learning/
+https://towardsdatascience.com/applications-of-reinforcement-learning-in-real-world-1a94955bcd12 
+https://medium.freecodecamp.org/an-introduction-to-q-learning-reinforcement-learning-14ac0b4493cc
+https://www.analyticsvidhya.com/blog/2017/01/introduction-to-reinforcement-learning-implementation/
+https://medium.com/@gaurav1086/machine-learning-for-algorithmic-trading-f79201c8bac6
+http://www.wildml.com/2018/02/introduction-to-learning-to-trade-with-reinforcement-learning/
+https://github.com/kh-kim/stock_market_reinforcement_learning
+https://quantdare.com/deep-reinforcement-trading/
+https://github.com/edwardhdlu/q-trader
+https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/
