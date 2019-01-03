@@ -30,6 +30,7 @@ Um dos papers mais famosos nesse tema foi publicado em 2013 pelo time de pesquis
 Algumas referencias sobre RL .  <br>
 https://github.com/changwookjun/StudyBook  (extensa lista de publicacoes - vale a pena ver) <br>
 https://github.com/PacktPublishing/Predictive-Analytics-with-TensorFlow .  (livro sobre RL) . <br>
+https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0 .  (um tutorial simples)  <br>
 https://hub.packtpub.com/develop-stock-price-predictive-model-using-reinforcement-learning-tensorflow/   <br>
 https://keon.io/deep-q-learning/   <br>
 https://towardsdatascience.com/applications-of-reinforcement-learning-in-real-world-1a94955bcd12   <br>
