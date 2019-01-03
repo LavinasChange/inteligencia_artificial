@@ -25,8 +25,11 @@ Esse tema, também classificado na classe de modelos de Inteligência Artificial
 4. Recompensa: nossa funçao objetivo que ira influenciar no algoritmo, dependendo do estado atual e futuro e da acao;
 5. Politicas: conjunto de regras que define as escolhas do agente para suas acoes (agent brain).
 
-Um dos papers mais famosos nesse tema foi publicado em 2013 pelo time de pesquisa do Google (Google's DeepMind) - Playing Atari with Deep Reinforcement Learning (https://arxiv.org/abs/1312.5602). No artigo é introduzido o algoritmo "Deep Q Network" onde temos a funçao Q(s,a) que depende de dois parâmetos, o estado e a açao.
+Um dos papers mais famosos nesse tema foi publicado em 2013 pelo time de pesquisa do Google (Google's DeepMind) - Playing Atari with Deep Reinforcement Learning (https://arxiv.org/abs/1312.5602). No artigo é introduzido o algoritmo "Deep Q Network" onde temos a funçao Q(s,a) que depende de dois parâmetos, o estado e a açao. O Q-learning procura aprender com o valor que é atribuído a um dado estado, que é o resultado da escolha de uma ação, e isso irá influenciar na decisão (ação) seguinte. Esse não seria o único método de políticas que governam as ações dos agentes, outro exemplo nessa linha seria o método do gradiente, onde mapeamos a melhor função relacionada a uma ação. Uma das características do Q-learning é que podemos regular as decisões do agente com base em parâmetros que irão dizer se o foco seria uma recompensa de curto ou de longo prazo. 
+Uma visão simples do Q-learning seria imaginar uma tabela que contém a recompensa para cada uma das combinações entre os possíveis estados (linhas) e as possíveis ações (colunas) que são especificadas no que denominamos de ambiente. Se temos 100 possíveis estados e 5 diferentes ações, em cada momento temos uma Q-table de 100x5=500 valores a serem analisados.
+Veja que para problemas de menor magnitude de estados, o uso da Q-table para avaliar o aprendizado se torna factível, mas para aplicações onde temos muito mais estados, a matriz (Q-table) seria impraticável. Nesse ponto passamos a usar redes neurais no processo de aprendizado. A vantagem de usar redes neurais para a solução do aprendizado é que passamos a ter a possibilidade de aplicar qualquer número de estados na análise. Para tanto, usamos os estados como input que irá ter como output os resultados de valores em Q-values. A diferença que surge agora nesse processo é que antes, com a Q-table, o processo de atualização era feito diretamente na tabela. Agora, usamos uma função perda e o princípio do backpropagation para fazer essa atualização, com a vantagem de termos flexibilidade de inserir mais layers, mudar a função de ativação, a quantidade de inputs e a própria função perda. Abaixo está uma extensa lista de opções de leitura sobre o tema RL.
 
+______________________________________
 Algumas referencias sobre RL .  <br>
 https://github.com/changwookjun/StudyBook  (extensa lista de publicacoes - vale a pena ver) <br>
 https://github.com/PacktPublishing/Predictive-Analytics-with-TensorFlow .  (livro sobre RL) . <br>
@@ -42,3 +45,4 @@ https://github.com/kh-kim/stock_market_reinforcement_learning   <br>
 https://quantdare.com/deep-reinforcement-trading/   <br>
 https://github.com/edwardhdlu/q-trader   <br>
 https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/   <br>
+https://neuro.cs.ut.ee/demystifying-deep-reinforcement-learning/  <br>
